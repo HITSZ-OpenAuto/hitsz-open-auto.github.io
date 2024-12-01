@@ -34,7 +34,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install Python dependencies
-        run: pip install -r scripts/requirements.txt
+        run: |
+          python -m pip install --upgrade pip poetry
+          poetry install --no-root
 
       - name: Fetch public repositories in the organization
         run: |

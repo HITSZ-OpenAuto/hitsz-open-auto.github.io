@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "hoa-moe"
+version = "0.1.0"
+description = "Backend of hoa.moe"
+authors = ["Kowyo <110339237+kowyo@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+certifi = "^2024.8.30"
+urllib3 = "^2.2.3"
+pillow = "^11.0.0"
+openai = "^1.55.3"
+PyYAML = "^6.0.2"
+pytz = "^2024.2"
+tqdm = "^4.67.1"
+python-dotenv = "^1.0.1"
+socksio = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

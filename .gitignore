@@ -25,4 +25,4 @@ hugo.linux
 */.idea/
 
 # Ignore .env
-scripts/.env
+.env

@@ -1,8 +1,0 @@
-certifi==2024.2.2
-openai==1.55.3
-PyYAML==6.0.1
-Requests==2.32.0
-tqdm==4.66.3
-urllib3==2.2.2
-pytz==2024.1
-pillow==11.0.0
